@@ -1,0 +1,36 @@
+
+# Unity generated files
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+
+# Visual Studio
+.vscode/
+*.csproj
+*.sln
+*.user
+*.pidb
+*.suo
+*.userprefs
+*.ilk
+*.pdb
+
+# Auto-generated files
+*.pidb
+*.mdb
+*.opendb
+
+# Package and dependency management files
+Packages/manifest.json
+Packages/packages-lock.json
+
+# System specific
+.DS_Store
+Thumbs.db
+
+# Memory captures
+MemoryCaptures/
