@@ -153,6 +153,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2063086064}
+  - {fileID: 1178361685}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &106450983
@@ -172,6 +173,7 @@ MonoBehaviour:
   counterLayerMask:
     serializedVersion: 2
     m_Bits: 8
+  kitchenObjectHoldPoint: {fileID: 0}
 --- !u!1 &296378119
 GameObject:
   m_ObjectHideFlags: 3
@@ -624,6 +626,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1178361684
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1178361685}
+  m_Layer: 0
+  m_Name: KitchenObjectHoldPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1178361685
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1178361684}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 106450982}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1196900620
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -938,6 +971,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 3808439949830156759, guid: 43c47c1cc6c40da409ef9b67bafe05df,
         type: 3}
+    - target: {fileID: 1042198268284212721, guid: 07b6dd7eb9291284faf344db54725a4c,
+        type: 3}
+      propertyPath: kitchenObjectSO
+      value: 
+      objectReference: {fileID: 11400000, guid: a8916db420ca2234c9c480a4c192b739,
+        type: 2}
     - target: {fileID: 3644760158059260884, guid: 07b6dd7eb9291284faf344db54725a4c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1093,6 +1132,12 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1042198268284212721, guid: 07b6dd7eb9291284faf344db54725a4c,
+        type: 3}
+      propertyPath: kitchenObjectSO
+      value: 
+      objectReference: {fileID: 11400000, guid: ab90616592604da4dae76e5acdf89e71,
+        type: 2}
     - target: {fileID: 3644760158059260884, guid: 07b6dd7eb9291284faf344db54725a4c,
         type: 3}
       propertyPath: m_LocalPosition.x
