@@ -16,6 +16,9 @@ public Transform GetKitchenObjectFollowTransform(){
 public void SetKitchenObject(KitchenObject kitchenObject){
     this.kitchenObject= kitchenObject;
 }
+public KitchenObject GetKitchenObject(){
+    return kitchenObject;
+}
 public void ClearKitchenObject(){
     kitchenObject = null;
 }
